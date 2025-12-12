@@ -29,11 +29,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* LOGO */}
         <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500 cursor-pointer">
-          <img
-            src="../../public/assets/logoSvg2.png"
-            alt="logo"
-            className="w-12"
-          />
+          <img src="/assets/logoSvg2.png" alt="logo" className="w-12" />
         </h1>
 
         {/* DESKTOP MENU */}
