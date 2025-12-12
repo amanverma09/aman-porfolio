@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden"
+      className="relative h-screen flex flex-col items-center justify-center text-center px-6 pt-18 overflow-hidden"
     >
       {/* --- BACKGROUND GRADIENT --- */}
       <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-[#1a1a1a]"></div>
@@ -80,7 +80,6 @@ export default function Hero() {
         >
           View Resume
         </a>
-
       </motion.div>
 
       {/* --- FLOATING SMALL PARTICLES --- */}

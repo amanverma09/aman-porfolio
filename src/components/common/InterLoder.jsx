@@ -64,7 +64,7 @@ export default function IntroLoader({ onFinish }) {
                 className="text-center"
               >
                 <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">
-                  Hello There 👋
+                  Hello There 🙋‍♂️
                 </h1>
                 <p className="text-lg text-gray-300">
                   Let me introduce myself...
