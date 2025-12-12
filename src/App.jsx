@@ -7,7 +7,7 @@ import Skills from "./components/sections/Skills";
 import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
-import IntroLoader from "./components/common/Interloder";
+import IntroLoader from "./components/common/InterLoder";
 import ParticlesCode from "./components/common/ParticlesCode";
 // import Features from "./components/sections/Features";
 import DarkVeil from "./components/common/DarkVeil";
