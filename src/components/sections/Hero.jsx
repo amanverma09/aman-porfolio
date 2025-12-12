@@ -73,7 +73,7 @@ export default function Hero() {
         </a>
 
         <a
-          href="/public/assets/myresume.pdf"
+          href="/assets/myresume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="px-8 py-3 rounded-xl font-semibold border border-gray-400 text-white hover:bg-white/10 backdrop-blur-xl transition"
