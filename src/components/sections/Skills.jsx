@@ -22,11 +22,11 @@ const skillsRow1 = [
   },
   {
     name: "GitHub",
-    icon: "../../../public/assets/githubSvg.png",
+    icon: "/assets/githubSvg.png",
   },
   {
     name: "Tailwind CSS",
-    icon: "../../../public/assets/tailwindSvg.png",
+    icon: "/assets/tailwindSvg.png",
   },
   {
     name: "Bootstrap",
@@ -41,7 +41,7 @@ const skillsRow2 = [
   },
   {
     name: "Express.js",
-    icon: "../../../public/assets/expressSvg.png",
+    icon: "/assets/expressSvg.png",
   },
   {
     name: "MongoDB",

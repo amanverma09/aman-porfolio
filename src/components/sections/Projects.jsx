@@ -24,7 +24,7 @@ const projectData = [
   {
     title: "E-Commerce Platform",
     desc: "Full-featured online store with cart, payment integration, admin dashboard, product filters, and real-time inventory management.",
-    img: "/public/assets/ecom.png",
+    img: "/assets/ecom.png",
     tags: [
       "React.js",
       "Node.js",
@@ -79,7 +79,7 @@ const projectData = [
   {
     title: "Driving School Management System",
     desc: "A modern platform for students to book classes, track progress, manage schedules, and access learning resources with ease.",
-    img: "/public/assets/drSchool2.png",
+    img: "/assets/drSchool2.png",
     tags: ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
     live: "https://thepriyanshidrivingschool.netlify.app/",
     github: "https://github.com/ShivSinghB/Driving-School",
