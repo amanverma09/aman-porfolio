@@ -8,8 +8,6 @@ import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
 import IntroLoader from "./components/common/InterLoder";
-import ParticlesCode from "./components/common/ParticlesCode";
-// import Features from "./components/sections/Features";
 import DarkVeil from "./components/common/DarkVeil";
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -39,10 +37,8 @@ export default function App() {
 
           <div style={{ position: "relative", zIndex: 1 }}>
             <Navbar />
-            <ParticlesCode />
             <Hero />
             <About />
-            {/* <Features /> */}
             <Skills />
             <Projects />
             <Contact />

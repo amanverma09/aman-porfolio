@@ -8,7 +8,7 @@ import {
   FaRocket,
   FaCube,
 } from "react-icons/fa";
-import { GiAbstract024 } from "react-icons/gi"; // Alternative 3D icon
+import { GiAbstract024 } from "react-icons/gi";
 
 const projectData = [
   {
@@ -304,22 +304,22 @@ const Projects = () => {
               {hoveredIndex === index && (
                 <>
                   <motion.div
-                    className="absolute -top-2 -left-2 w-4 h-4 border-t-2 border-l-2 border-cyan-400"
+                    className="absolute -top-2 -left-2 w-4 h-4 border-t-2 border-l-2 border-yellow-600"
                     initial={{ opacity: 0, x: -10, y: -10 }}
                     animate={{ opacity: 1, x: 0, y: 0 }}
                   />
                   <motion.div
-                    className="absolute -top-2 -right-2 w-4 h-4 border-t-2 border-r-2 border-purple-400"
+                    className="absolute -top-2 -right-2 w-4 h-4 border-t-2 border-r-2 border-cyan-600"
                     initial={{ opacity: 0, x: 10, y: -10 }}
                     animate={{ opacity: 1, x: 0, y: 0 }}
                   />
                   <motion.div
-                    className="absolute -bottom-2 -left-2 w-4 h-4 border-b-2 border-l-2 border-cyan-400"
+                    className="absolute -bottom-2 -left-2 w-4 h-4 border-b-2 border-l-2 border-cyan-600"
                     initial={{ opacity: 0, x: -10, y: 10 }}
                     animate={{ opacity: 1, x: 0, y: 0 }}
                   />
                   <motion.div
-                    className="absolute -bottom-2 -right-2 w-4 h-4 border-b-2 border-r-2 border-purple-400"
+                    className="absolute -bottom-2 -right-2 w-4 h-4 border-b-2 border-r-2 border-yellow-600"
                     initial={{ opacity: 0, x: 10, y: 10 }}
                     animate={{ opacity: 1, x: 0, y: 0 }}
                   />
@@ -377,7 +377,7 @@ const Projects = () => {
                 ✕
               </button>
 
-              <div className="h-64 md:h-80 relative overflow-hidden">
+              <div className="h-40 md:h-60 relative overflow-hidden">
                 <img
                   src={selected.img}
                   alt={selected.title}
@@ -430,7 +430,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="flex-1 flex items-center justify-center gap-3 px-6 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold rounded-xl hover:shadow-xl hover:shadow-cyan-500/30 transition-all"
+                    className="flex-1 flex items-center justify-center gap-3 px-6 py-4 bg-gradient-to-r from-cyan-500 to-cyan-500/10 text-white font-semibold rounded-xl hover:shadow-xl hover:shadow-cyan-500/30 transition-all"
                   >
                     <FaExternalLinkAlt /> Live Demo
                   </motion.a>
@@ -440,7 +440,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="flex-1 flex items-center justify-center gap-3 px-6 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-xl hover:shadow-xl hover:shadow-purple-500/30 transition-all"
+                    className="flex-1 flex items-center justify-center gap-3 px-6 py-4 bg-gradient-to-r from-yellow-400 to-yellow-400/10 text-white font-semibold rounded-xl hover:shadow-xl hover:shadow-purple-500/30 transition-all"
                   >
                     <FaGithub /> View Code
                   </motion.a>
@@ -450,21 +450,6 @@ const Projects = () => {
           </motion.div>
         )}
       </AnimatePresence>
-
-      {/* Add custom animation to tailwind config */}
-      <style jsx>{`
-        @keyframes spin-slow {
-          from {
-            transform: rotate(0deg);
-          }
-          to {
-            transform: rotate(360deg);
-          }
-        }
-        .animate-spin-slow {
-          animation: spin-slow 20s linear infinite;
-        }
-      `}</style>
     </section>
   );
 };

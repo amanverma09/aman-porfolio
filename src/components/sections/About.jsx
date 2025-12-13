@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profile from "../../../public/assets/profile2.jpg";
 
 const About = () => {
   return (
@@ -57,7 +56,7 @@ const About = () => {
           <div className="relative w-80 h-90 md:w-96 md:h-[500px] overflow-hidden rounded-2xl bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm border border-white/20 shadow-2xl shadow-black/30">
             {/* Image with Enhanced Effects */}
             <motion.img
-              src={profile}
+              src={"/assets/profile2.jpg"}
               alt="Aman Bhamuriya - Creative Frontend Developer & UI/UX Designer"
               className="w-full h-half object-cover scale-105 group-hover:scale-110 transition-all duration-700"
               whileHover={{ scale: 1.08 }}
