@@ -39,12 +39,12 @@ const projectData = [
     stars: 58,
   },
   {
-    title: "CRM Dashboard",
+    title: "BrightexCRM Dashboard",
     desc: "Comprehensive customer relationship management system with analytics, team collaboration, activity tracking, and reporting.",
-    img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&auto=format&fit=crop",
+    img: "/assets/brightexCRM.png",
     tags: ["React", "Chart.js", "Firebase", "Material UI", "Socket.io"],
-    live: "https://example.com",
-    github: "https://github.com",
+    live: "https://brightex-frontend.vercel.app/",
+    github: "https://github.com/amanverma09/Brightex-project",
     featured: false,
     stars: 31,
   },
@@ -209,7 +209,7 @@ const Projects = () => {
               onClick={() => setSelected(project)}
             >
               {/* Glow Effect */}
-              <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500/30 to-purple-500/30 rounded-3xl blur opacity-0 group-hover:opacity-70 transition-all duration-500" />
+              <div className="absolute -inset-1 bg-gradient-to-r  rounded-3xl blur opacity-0 group-hover:opacity-70 transition-all duration-500" />
 
               {/* Main Card */}
               <div className="relative bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-xl rounded-2xl overflow-hidden border border-white/10 shadow-2xl h-full">
